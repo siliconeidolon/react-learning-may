@@ -5,7 +5,6 @@ import './App.css';
 import Header from './features/header/Header'
 import Footer from './features/footer/Footer'
 import Content from './features/content/Content'
-//import Content from './features/content/Content'
 
 //this imports Header
 //import Header from '.features/header'
@@ -29,7 +28,6 @@ incrementCounter = () => {
       <div className="App">
         <h1>{this.state.movieCount}</h1>
         <Header myTitle={title}/>
-        //passing method as prop
         <Content incrementCounter={this.incrementCounter}/>
 
         <Footer />
